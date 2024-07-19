@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sion</title>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/typography.css">
+
+</head>
+<body>
+    <header>
+        <div class="head-bar">
+            
+                <!-- <img src="/assets/img/svg/projekt-title.svg" alt="" class="head-title"> -->
+                <h1 class="ctn-txt head-title">Projekt/KLAESER</h1>
+            <nav class="header-nav">
+                <a href="#"><h3 class="ctn-txt p10">SD</h3></a>
+                <img src="/assets/img/svg/burger-menu.svg" alt="menu button" class="menu-burger">
+            </nav>
+        </div>
+
+        <div class="header-menu">
+            <div class="menu-grid">
+                <div class="head-mg menu-grid-item">
+                    <!-- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum fuga velit optio ducimus commodi neque aliquid eos illum, totam voluptate vitae ullam ex ea temporibus laborum repellendus ad. Dicta, eum! -->
+                    <img src="/assets/img/svg/head-title.svg" alt="Sion Design gemeinsam den Forttschritt Grstalten">
+                </div>
+                <div class="separtor-mg menu-grid-item">
+                    <img src="/assets/img/svg/Line 73.svg" >
+                </div>
+                <div class="menu-list-mg menu-grid-item">
+                    <ul>
+                        <li><a href="#"><div class="link-border head-link">Projekte</a></div></li>
+                        <li><a href="#"><div class="link-border head-link">Design</a></div></li>
+                        <li><a href="#"><div class="link-border head-link">Prozessautomatisiserung</a></div></li>
+                        <li><a href="#"><div class="link-border head-link">Suchmaschinenmarketing</a></div></li>
+                        <li><a href="#"><div class="link-border head-link">Kontakt</a></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="follow-arrow">
+            <img src="/assets/img/svg/follow-arrow.svg" alt="Nach unter" >
+        </div>
+    </header>
+</body>
+<script>
+    const hamburgermenu = document.querySelector(".menu-burger")
+    const headermenu = document.querySelector(".header-menu")
+
+    hamburgermenu.addEventListener('click', ()=>{
+    headermenu.classList.toggle('burger-menu')
+    })
+</script>
+</html>

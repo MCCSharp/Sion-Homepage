@@ -1,0 +1,47 @@
+/* Réinitialisation des styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utilisation de la police Figtree */
+body {
+    font-family: "Figtree", sans-serif;
+    font-size: 16px; /* Taille de base */
+    line-height: 1.6; /* Hauteur de ligne recommandée */
+    color: #333; /* Couleur de texte principale */
+}
+
+h1, h2, h3 {
+    font-family: "Figtree", sans-serif;
+    font-weight: bold; /* Ou spécifiez le poids de la police */
+    line-height: 1.2; /* Hauteur de ligne pour les titres */
+    color: #444; /* Couleur de texte pour les titres */
+    margin-bottom: 0.5em; /* Marge inférieure pour séparer les titres du contenu */
+}
+
+h1 {
+    font-size: 1.6em; /* Taille de police pour h1 */
+}
+
+h2 {
+    font-size: 1.6em; /* Taille de police pour h2 */
+}
+
+h3 {
+    font-size: 1.6em; /* Taille de police pour h3 */
+}
+
+p {
+    margin-bottom: 1em; /* Espacement entre les paragraphes */
+}
+
+/* Styles supplémentaires si nécessaire */
+
+/* Exemple de style pour les liens */
+a {
+    color: #272727; /* Couleur du lien */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+}
+
+
